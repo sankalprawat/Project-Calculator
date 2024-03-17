@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    background-color: rgb(236, 161, 161);
+}
+
+.row input {
+    background-color: rgba(255, 255, 255, 0.5); /* translucent white */
+}
+
+.button{
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 60px;
+    cursor: pointer;
+    font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.row{
+    margin: 6px 0;
+}
+
+.row input{
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 22px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
